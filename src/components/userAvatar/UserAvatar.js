@@ -3,7 +3,7 @@ import picture from "../../assets/images/profile__img.png"
 import mobileIcon from "../../assets/images/mobileIcon.png"
 import shareButton from "../../assets/images/shareButton.png"
 
-export const Profile = () => {
+export const UserAvatar = () => {
   return (
     <div>
         <img src={shareButton} alt="share" id="share__img" className="invisible md:visible md:relative md:left-[600px] md:top-[40px] lg:visible lg:relative lg:left-[800px] xl:visible xl:relative xl:left-[1000px] "/>
