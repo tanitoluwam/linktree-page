@@ -4,7 +4,7 @@ import ingressiveLogo from "../../assets/images/ingressiveLogo.png";
 
 export const Footer = () => {
   return (
-    <div className="my-8">
+    <footer className="my-8 px-8">
       <hr className="border-t-2 border-primary md:w-10/12 md:mx-auto" />
       <div className="md:flex md:w-10/12 md:justify-between md:mx-auto md:py-8">
         <img src={zuriLogo} alt="" className="mt-3" />
@@ -13,6 +13,6 @@ export const Footer = () => {
         </p>
         <img src={ingressiveLogo} alt="" className="mt-3" />
       </div>
-    </div>
+    </footer>
   );
 };
